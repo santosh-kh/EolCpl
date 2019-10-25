@@ -66,6 +66,6 @@ Linear search is used as records very minimal.
 
 #### Below is the test coverage report. 
 
-![Test coverage report](CoverletReport.jpg)
+![test coverage report](coverletReport.png)
 
 Xml documetation generated for each projects are located in `Properties` folder respectively.  
