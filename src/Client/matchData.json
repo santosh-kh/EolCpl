@@ -1,0 +1,92 @@
+{
+  "Players": [
+    {
+      "Id": 1,
+      "Name": "Pravin",
+      "TeamId": 1,
+      "ScoreProbabilities": [ 5, 30, 25, 10, 15, 1, 9, 5 ]
+    },
+    {
+      "Id": 2,
+      "Name": "Irfan",
+      "TeamId": 1,
+      "ScoreProbabilities": [ 10, 40, 20, 5, 10, 1, 4, 10 ]
+    },
+    {
+      "Id": 3,
+      "Name": "Jalindar",
+      "TeamId": 1,
+      "ScoreProbabilities": [ 20, 30, 15, 5, 5, 1, 4, 20 ]
+    },
+    {
+      "Id": 4,
+      "Name": "Vaishali",
+      "TeamId": 1,
+      "ScoreProbabilities": [ 30, 25, 5, 0, 5, 1, 4, 30 ]
+    }
+  ],
+  "Teams": [
+    {
+      "Id": 1,
+      "Name": "Remus"
+    },
+    {
+      "Id": 2,
+      "Name": "Nibiru"
+    }
+  ],
+  "Matches": [
+    {
+      "BatFirstTeamId": 2,
+      "Id": 1,
+      "Innings": 2,
+      "IsOver": false,
+      "Team1_Id": 2,
+      "Team1_OversPlayed": 20,
+      "Team1_Score": 139,
+      "Team2_Id": 1,
+      "Team2_OversPlayed": 16,
+      "Team1_WicketsLeft": 5,
+      "Team2_WicketsLeft": 3,
+      "Team2_Score": 100
+    }
+  ],
+  "PlayerMatches": [
+    {
+      "PlayerId": 1,
+      "MatchId": 1,
+      "RunsScored": 0,
+      "BallsFaced": 0,
+      "BattingOrder": 8,
+      "IsOut": false,
+      "IsOnField":  true
+    },
+    {
+      "PlayerId": 2,
+      "MatchId": 1,
+      "RunsScored": 0,
+      "BallsFaced": 0,
+      "BattingOrder": 9,
+      "IsOut": false,
+      "IsOnField": true
+    },
+    {
+      "PlayerId": 3,
+      "MatchId": 1,
+      "RunsScored": 0,
+      "BallsFaced": 0,
+      "BattingOrder": 10,
+      "IsOut": false,
+      "IsOnField": false
+    },
+    {
+      "PlayerId": 4,
+      "MatchId": 1,
+      "RunsScored": 0,
+      "BallsFaced": 0,
+      "BattingOrder": 11,
+      "IsOut": false,
+      "IsOnField": false
+    }
+  ]
+}

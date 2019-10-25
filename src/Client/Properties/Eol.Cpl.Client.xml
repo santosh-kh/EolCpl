@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eol.Cpl.Client</name>
+    </assembly>
+    <members>
+        <member name="T:Eol.Cpl.Client.MatchService">
+            <summary>
+            The class contains methods for the match simulation.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.Client.MatchService.SimulateMatch(Eol.Cpl.Client.CurrentMatchDetails)">
+            <summary>
+            Simulates the match for the remaining overs.
+            </summary>
+            <remarks>Prints the match result once it's done.</remarks>
+            <param name="currentMatch">currentMatch details</param>
+        </member>
+        <member name="M:Eol.Cpl.Client.MatchService.NextOver(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails@,Eol.Cpl.Client.PlayerDetails@,System.Double@)">
+            <summary>
+            Simulates the over of the match. 
+            </summary>
+            <remarks>Rotate the striker at the end of over.</remarks>
+            <param name="currentMatch"></param>
+            <param name="striker"></param>
+            <param name="nonStriker"></param>
+            <param name="currentOver"></param>
+        </member>
+        <member name="M:Eol.Cpl.Client.MatchService.NextBall(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails@,Eol.Cpl.Client.PlayerDetails@,System.Double)">
+            <summary>
+            Simulates the ball of the match.
+            </summary>
+            <remarks>Updates the score card based on the player score.</remarks>
+            <param name="currentMatch"></param>
+            <param name="striker"></param>
+            <param name="nonStriker"></param>
+            <param name="currentOver"></param>
+        </member>
+        <member name="T:Eol.Cpl.Client.ScoreBoardService">
+            <summary>
+            Class contains methods to ppdates the score card along with commentary.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.Client.ScoreBoardService.UpdateScore(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails,System.Int32,System.Double)">
+            <summary>
+            Updates the score card as well as striker score based on the runScored.
+            </summary>
+            <param name="currentMatch"></param>
+            <param name="striker"></param>
+            <param name="runsScored"></param>
+            <param name="currentOver"></param>
+        </member>
+        <member name="M:Eol.Cpl.Client.ScoreBoardService.UpdateCommentory(Eol.Cpl.Client.PlayerDetails,System.Double,System.Int32,System.Boolean)">
+            <summary>
+            Updates commentary for each ball based on currentOver, runsScored or isOut
+            </summary>
+            <param name="striker"></param>
+            <param name="currentOver"></param>
+            <param name="runsScored"></param>
+            <param name="isOut"></param>
+        </member>
+        <member name="M:Eol.Cpl.Client.ScoreBoardService.UpdateWicket(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails@,Eol.Cpl.Client.PlayerDetails,System.Double)">
+            <summary>
+            Updates the score card as well as striker for an wicket.
+            </summary>
+            <remarks>Gets the new batsman if wickets left else ends the match by printing match summary.</remarks>
+            <param name="currentMatch"></param>
+            <param name="striker"></param>
+            <param name="nonStriker"></param>
+            <param name="currentOver"></param>
+        </member>
+        <member name="M:Eol.Cpl.Client.ScoreBoardService.DisplayMatchResult(Eol.Cpl.Client.CurrentMatchDetails,System.Boolean)">
+            <summary>
+            Prints the match result along with batsman scre details.
+            </summary>
+            <param name="currentMatch"></param>
+            <param name="isWonByChasing"></param>
+        </member>
+        <member name="T:Eol.Cpl.Client.MatchInitialize">
+            <summary>
+            Initializes the current match data.
+            It reads data from matchData.json file.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.Client.MatchInitialize.GetCurrentMatchDetails">
+            <summary>
+            Reads the current match details along with player details.
+            </summary>
+            <returns>Eol.Cpl.Client.CurrentMatchDetails</returns>
+        </member>
+        <member name="T:Eol.Cpl.Client.CurrentMatchDetails">
+            <summary>
+            Score card details along with players information.
+            </summary>
+        </member>
+        <member name="T:Eol.Cpl.Client.EolCplData">
+            <summary>
+            Contains properties to match mapData.json data.
+            </summary>
+        </member>
+        <member name="T:Eol.Cpl.Client.Match">
+            <summary>
+            Conatins properties to hold information about match.
+            </summary>
+        </member>
+        <member name="T:Eol.Cpl.Client.Player">
+            <summary>
+            Conatins properties to hold information about player.
+            </summary>
+        </member>
+        <member name="T:Eol.Cpl.Client.PlayerDetails">
+            <summary>
+            Conatins properties to hold information about player match details.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.Client.PlayerDetails.Strike">
+            <summary>
+            Returns run scored based on the player score probailities.
+            </summary>
+            <returns>Runs scored</returns>
+        </member>
+        <member name="T:Eol.Cpl.Client.PlayerMatch">
+            <summary>
+            Conatins properties to hold information about player match details.
+            </summary>
+        </member>
+        <member name="T:Eol.Cpl.Client.Team">
+            <summary>
+            Conatins information about team.
+            </summary>
+        </member>
+        <member name="T:Eol.Cpl.Client.Program">
+            <summary>
+            App starts fromhere.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.Client.Program.Main(System.String[])">
+            <summary>
+            Reads match data and handles match simulation.
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:Eol.Cpl.Client.Startup">
+            <summary>
+            Start up the application by configuring services.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.Client.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Dependency injection for the application is handled here.
+            </summary>
+            <param name="serviceCollection"></param>
+        </member>
+    </members>
+</doc>

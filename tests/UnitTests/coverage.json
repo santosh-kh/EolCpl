@@ -1,0 +1,1186 @@
+{
+  "Eol.Cpl.Client.dll": {
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Domain\\MatchService.cs": {
+      "Eol.Cpl.Client.MatchService": {
+        "System.Void Eol.Cpl.Client.MatchService::SimulateMatch(Eol.Cpl.Client.CurrentMatchDetails)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 56,
+              "EndOffset": 81,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 223,
+              "EndOffset": 119,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 223,
+              "EndOffset": 225,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.MatchService::NextOver(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails&,Eol.Cpl.Client.PlayerDetails&,System.Double&)": {
+          "Lines": {
+            "49": 1,
+            "50": 14,
+            "51": 6,
+            "52": 6,
+            "53": 6,
+            "54": 6,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 49,
+              "EndOffset": 5,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            },
+            {
+              "Line": 50,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.MatchService::NextBall(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails&,Eol.Cpl.Client.PlayerDetails&,System.Double)": {
+          "Lines": {
+            "67": 10,
+            "68": 10,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 6,
+            "81": 6,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "97": 1,
+            "98": 1,
+            "99": 0,
+            "101": 10
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 108,
+              "Path": 2,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 130,
+              "Path": 3,
+              "Ordinal": 3,
+              "Hits": 6
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 144,
+              "Path": 4,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 166,
+              "Path": 5,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 180,
+              "Path": 6,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 202,
+              "Path": 7,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 216,
+              "Path": 8,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 18,
+              "EndOffset": 230,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.MatchService::RotateStriker(Eol.Cpl.Client.PlayerDetails&,Eol.Cpl.Client.PlayerDetails&)": {
+          "Lines": {
+            "104": 2,
+            "105": 2,
+            "106": 2,
+            "107": 2,
+            "108": 2
+          },
+          "Branches": []
+        },
+        "System.Void Eol.Cpl.Client.MatchService::.ctor(Eol.Cpl.Client.IPlayerScoreHelper)": {
+          "Lines": {
+            "13": 5,
+            "14": 5,
+            "15": 5,
+            "16": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Domain\\PlayerScoreHelper.cs": {
+      "Eol.Cpl.Client.PlayerScoreHelper": {
+        "System.Void Eol.Cpl.Client.PlayerScoreHelper::BuildCumulativeDistribution(Eol.Cpl.Client.PlayerDetails)": {
+          "Lines": {
+            "11": 6,
+            "12": 6,
+            "14": 108,
+            "15": 48,
+            "16": 48,
+            "17": 48,
+            "18": 6,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "23": 90,
+            "24": 40,
+            "25": 40,
+            "26": 35,
+            "27": 35,
+            "28": 35,
+            "29": 40,
+            "30": 5
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 37,
+              "EndOffset": 7,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 48
+            },
+            {
+              "Line": 14,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 18,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 49,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 23,
+              "Offset": 155,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 40
+            },
+            {
+              "Line": 25,
+              "Offset": 100,
+              "EndOffset": 102,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 35
+            },
+            {
+              "Line": 25,
+              "Offset": 100,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 40
+            },
+            {
+              "Line": 23,
+              "Offset": 155,
+              "EndOffset": 157,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerScoreHelper::Strike(Eol.Cpl.Client.PlayerDetails)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Domain\\ScoreBoardService.cs": {
+      "Eol.Cpl.Client.ScoreBoardService": {
+        "System.Void Eol.Cpl.Client.ScoreBoardService::UpdateScore(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails,System.Int32,System.Double)": {
+          "Lines": {
+            "19": 9,
+            "20": 9,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "25": 9,
+            "26": 9,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 9
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 63,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            },
+            {
+              "Line": 26,
+              "Offset": 138,
+              "EndOffset": 140,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 138,
+              "EndOffset": 150,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.ScoreBoardService::UpdateCommentory(Eol.Cpl.Client.PlayerDetails,System.Double,System.Int32,System.Boolean)": {
+          "Lines": {
+            "40": 12,
+            "41": 12,
+            "42": 12
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 10
+            },
+            {
+              "Line": 41,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 9
+            },
+            {
+              "Line": 41,
+              "Offset": 36,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 33,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 41,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 41,
+              "Offset": 62,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.ScoreBoardService::UpdateWicket(Eol.Cpl.Client.CurrentMatchDetails,Eol.Cpl.Client.PlayerDetails&,Eol.Cpl.Client.PlayerDetails,System.Double)": {
+          "Lines": {
+            "53": 2,
+            "54": 2,
+            "55": 2,
+            "56": 2,
+            "57": 2,
+            "58": 2,
+            "60": 2,
+            "61": 2,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 2,
+            "67": 2,
+            "68": 2,
+            "69": 8,
+            "70": 2,
+            "71": 2,
+            "72": 2,
+            "73": 2
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 100,
+              "EndOffset": 102,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 100,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 68,
+              "Offset": 153,
+              "EndOffset": 155,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 153,
+              "EndOffset": 180,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.ScoreBoardService::DisplayMatchResult(Eol.Cpl.Client.CurrentMatchDetails,System.Boolean)": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0
+          },
+          "Branches": [
+            {
+              "Line": 82,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 82,
+              "Offset": 4,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 239,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 183,
+              "EndOffset": 185,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 183,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 191,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 239,
+              "EndOffset": 241,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\MatchInitialize.cs": {
+      "Eol.Cpl.Client.MatchInitialize": {
+        "Eol.Cpl.Client.CurrentMatchDetails Eol.Cpl.Client.MatchInitialize::GetCurrentMatchDetails()": {
+          "Lines": {
+            "26": 8,
+            "27": 16,
+            "28": 8,
+            "29": 40,
+            "30": 104,
+            "31": 40,
+            "32": 40,
+            "33": 40,
+            "34": 40,
+            "35": 40,
+            "36": 40,
+            "37": 40,
+            "38": 40,
+            "39": 40,
+            "40": 40,
+            "41": 40,
+            "42": 40,
+            "43": 40,
+            "44": 72,
+            "46": 8,
+            "47": 8,
+            "48": 24,
+            "49": 16,
+            "50": 8,
+            "51": 8,
+            "52": 8,
+            "53": 8,
+            "54": 8,
+            "55": 8
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 27,
+              "Offset": 25,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 28,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 88,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            },
+            {
+              "Line": 28,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 119,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 8
+            },
+            {
+              "Line": 28,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 150,
+              "EndOffset": 175,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 8
+            },
+            {
+              "Line": 28,
+              "Offset": 203,
+              "EndOffset": 205,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 28,
+              "Offset": 203,
+              "EndOffset": 228,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 8
+            },
+            {
+              "Line": 28,
+              "Offset": 239,
+              "EndOffset": 241,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 28,
+              "Offset": 239,
+              "EndOffset": 264,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 8
+            },
+            {
+              "Line": 46,
+              "Offset": 421,
+              "EndOffset": 423,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 421,
+              "EndOffset": 435,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 8
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.MatchInitialize::.ctor()": {
+          "Lines": {
+            "15": 8,
+            "16": 8,
+            "17": 8,
+            "18": 8,
+            "19": 8
+          },
+          "Branches": []
+        }
+      },
+      "Eol.Cpl.Client.MatchInitialize/<>c__DisplayClass3_0": {
+        "System.Boolean Eol.Cpl.Client.MatchInitialize/<>c__DisplayClass3_0::<GetCurrentMatchDetails>b__4(<>f__AnonymousType0`2<Eol.Cpl.Client.Player,Eol.Cpl.Client.PlayerMatch>)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 32
+            },
+            {
+              "Line": 31,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 32
+            },
+            {
+              "Line": 31,
+              "Offset": 30,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 62,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Model\\CurrentMatchDetails.cs": {
+      "Eol.Cpl.Client.CurrentMatchDetails": {
+        "System.String Eol.Cpl.Client.CurrentMatchDetails::get_Team1_Name()": {
+          "Lines": {
+            "10": 8
+          },
+          "Branches": []
+        },
+        "System.String Eol.Cpl.Client.CurrentMatchDetails::get_Team2_Name()": {
+          "Lines": {
+            "11": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.CurrentMatchDetails::get_OversLeft()": {
+          "Lines": {
+            "12": 15
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Eol.Cpl.Client.CurrentMatchDetails::get_RunsNeedToWin()": {
+          "Lines": {
+            "13": 49
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.CurrentMatchDetails::get_WicketsLeft()": {
+          "Lines": {
+            "14": 16
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Eol.Cpl.Client.PlayerDetails> Eol.Cpl.Client.CurrentMatchDetails::get_Players()": {
+          "Lines": {
+            "15": 10026
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.CurrentMatchDetails::get_BallsRemaining()": {
+          "Lines": {
+            "16": 45
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Model\\EolCplData.cs": {
+      "Eol.Cpl.Client.EolCplData": {
+        "System.Collections.Generic.List`1<Eol.Cpl.Client.Match> Eol.Cpl.Client.EolCplData::get_Matches()": {
+          "Lines": {
+            "10": 24
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Eol.Cpl.Client.Team> Eol.Cpl.Client.EolCplData::get_Teams()": {
+          "Lines": {
+            "11": 32
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Eol.Cpl.Client.Player> Eol.Cpl.Client.EolCplData::get_Players()": {
+          "Lines": {
+            "12": 24
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Eol.Cpl.Client.PlayerMatch> Eol.Cpl.Client.EolCplData::get_PlayerMatches()": {
+          "Lines": {
+            "13": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Model\\Match.cs": {
+      "Eol.Cpl.Client.Match": {
+        "System.Int32 Eol.Cpl.Client.Match::get_Id()": {
+          "Lines": {
+            "9": 40
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_Team1_Id()": {
+          "Lines": {
+            "10": 24
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_Team2_Id()": {
+          "Lines": {
+            "11": 48
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_BatFirstTeamId()": {
+          "Lines": {
+            "12": 8
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Eol.Cpl.Client.Match::get_Team1_Score()": {
+          "Lines": {
+            "13": 16
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Eol.Cpl.Client.Match::get_Team2_Score()": {
+          "Lines": {
+            "14": 16
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_Team1_OversPlayed()": {
+          "Lines": {
+            "15": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_Team2_OversPlayed()": {
+          "Lines": {
+            "16": 16
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_Team1_WicketsLeft()": {
+          "Lines": {
+            "17": 8
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_Team2_WicketsLeft()": {
+          "Lines": {
+            "18": 16
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Match::get_Innings()": {
+          "Lines": {
+            "19": 8
+          },
+          "Branches": []
+        },
+        "System.Boolean Eol.Cpl.Client.Match::get_IsOver()": {
+          "Lines": {
+            "20": 16
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Model\\Player.cs": {
+      "Eol.Cpl.Client.Player": {
+        "System.Int32 Eol.Cpl.Client.Player::get_Id()": {
+          "Lines": {
+            "9": 128
+          },
+          "Branches": []
+        },
+        "System.String Eol.Cpl.Client.Player::get_Name()": {
+          "Lines": {
+            "10": 120111
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.Player::get_TeamId()": {
+          "Lines": {
+            "11": 128
+          },
+          "Branches": []
+        },
+        "System.Int32[] Eol.Cpl.Client.Player::get_ScoreProbabilities()": {
+          "Lines": {
+            "12": 491707
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Model\\PlayerDetails.cs": {
+      "Eol.Cpl.Client.PlayerDetails": {
+        "System.Int32 Eol.Cpl.Client.PlayerDetails::get_MatchId()": {
+          "Lines": {
+            "12": 32
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerDetails::get_RunsScored()": {
+          "Lines": {
+            "13": 51
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerDetails::get_BallsFaced()": {
+          "Lines": {
+            "14": 57
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerDetails::get_BattingOrder()": {
+          "Lines": {
+            "15": 82
+          },
+          "Branches": []
+        },
+        "System.Boolean Eol.Cpl.Client.PlayerDetails::get_IsOut()": {
+          "Lines": {
+            "16": 39
+          },
+          "Branches": []
+        },
+        "System.Boolean Eol.Cpl.Client.PlayerDetails::get_IsOnField()": {
+          "Lines": {
+            "17": 69
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerDetails::Strike()": {
+          "Lines": {
+            "24": 60000,
+            "25": 60000,
+            "26": 60000,
+            "27": 498286,
+            "28": 242216,
+            "29": 242216,
+            "30": 53073,
+            "31": 53073,
+            "32": 53073,
+            "34": 189143,
+            "35": 60000,
+            "36": 60000
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 65,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 242216
+            },
+            {
+              "Line": 29,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 53073
+            },
+            {
+              "Line": 29,
+              "Offset": 38,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 189143
+            },
+            {
+              "Line": 27,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 60000
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.PlayerDetails::.cctor()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Model\\PlayerMatch.cs": {
+      "Eol.Cpl.Client.PlayerMatch": {
+        "System.Int32 Eol.Cpl.Client.PlayerMatch::get_PlayerId()": {
+          "Lines": {
+            "9": 64
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerMatch::get_MatchId()": {
+          "Lines": {
+            "10": 96
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerMatch::get_RunsScored()": {
+          "Lines": {
+            "11": 64
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerMatch::get_BallsFaced()": {
+          "Lines": {
+            "12": 64
+          },
+          "Branches": []
+        },
+        "System.Int32 Eol.Cpl.Client.PlayerMatch::get_BattingOrder()": {
+          "Lines": {
+            "13": 64
+          },
+          "Branches": []
+        },
+        "System.Boolean Eol.Cpl.Client.PlayerMatch::get_IsOut()": {
+          "Lines": {
+            "14": 96
+          },
+          "Branches": []
+        },
+        "System.Boolean Eol.Cpl.Client.PlayerMatch::get_IsOnField()": {
+          "Lines": {
+            "15": 64
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Model\\Team.cs": {
+      "Eol.Cpl.Client.Team": {
+        "System.Int32 Eol.Cpl.Client.Team::get_Id()": {
+          "Lines": {
+            "9": 40
+          },
+          "Branches": []
+        },
+        "System.String Eol.Cpl.Client.Team::get_Name()": {
+          "Lines": {
+            "11": 32
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\Program.cs": {
+      "Eol.Cpl.Client.Program": {
+        "System.Void Eol.Cpl.Client.Program::Main(System.String[])": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 210,
+              "EndOffset": 183,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 210,
+              "EndOffset": 212,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Eol.Cpl.Client.Program::.cctor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\l299\\source\\repos\\GitHub\\eol.cpl\\src\\Client\\StartUp.cs": {
+      "Eol.Cpl.Client.Startup": {
+        "System.Void Eol.Cpl.Client.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

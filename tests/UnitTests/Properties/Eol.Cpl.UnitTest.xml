@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eol.Cpl.UnitTest</name>
+    </assembly>
+    <members>
+        <member name="T:Eol.Cpl.UnitTest.MatchServiceTest">
+            <summary>
+            Tests verify the score card after each ball, with different strike.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.MatchServiceTest.SimulateOver_CheckScoreCard_Verify">
+            <summary>
+            Test to verify NextOver() method from MatchService
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.MatchServiceTest.SimulateBall_Out_Verify">
+            <summary>
+            Test to verify NextBall() for Wicket scenario
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.MatchServiceTest.SimulateBall_OddScore_RotateStrike">
+            <summary>
+            Test to verify NextBall() for odd score scenario
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.MatchServiceTest.SimulateBall_EvenScore_NoRotateStrike">
+            <summary>
+            Test to verify NextBall() for even score scenario
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.MatchServiceTest.SimulateBall_NoRun_NoRotateStrike">
+            <summary>
+            Test to verify NextBall() for no run scenario
+            </summary>
+        </member>
+        <member name="T:Eol.Cpl.UnitTest.PlayerScoreHelperTest">
+            <summary>
+            Tests to verify players scores against their probabilities.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.PlayerScoreHelperTest.PlayerWithProbabilities_NotEqualHundred_Exception">
+            <summary>
+            Test to verify player probabilities add upto 100 or not
+            </summary>
+            <exception cref="T:System.Exception">Thrown when player probabilities don't add upto 100.</exception>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.PlayerScoreHelperTest.PlayerPobability_Zero_NerverScores">
+            <summary>
+            Test to verify player won't score for which he has zero probability
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.PlayerScoreHelperTest.InidvidualPlayerStrikeProbalility_Verify">
+            <summary>
+            Test to verify player scores against their probabilities.
+            </summary>
+        </member>
+        <member name="M:Eol.Cpl.UnitTest.PlayerScoreHelperTest.MultiPlayersStrikeProbalility_Verify">
+            <summary>
+            Test to verify players scores against their probabilities.
+            </summary>
+        </member>
+    </members>
+</doc>
