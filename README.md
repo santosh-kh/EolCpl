@@ -51,15 +51,21 @@ Also try updating match details to change the score card & target. Remember team
     }
 ```
 
-#### How it works?
-### Preparation
+### How it works?
+#### Preparation
 - Reads players data, every player has their own scoring probabilities associated with them.
 - Each player score probabilities should match to 100.
 - Converts players score probabilities to discrete Cumulative Distribution array.
 
-### Facing delivery
+#### Facing delivery
 - For each ball, random number is generated.
 - Select the index from the array, if the random is less than or equals to the value.
 - Rules of the game is applied based on the index.
 
 Linear search is used as records very minimal.
+
+#### Below is the test coverage report. 
+
+![Test coverage report](CoverletReport.jpg)
+
+Xml documetation generated for each projects are located in `Properties` folder respectively.  
